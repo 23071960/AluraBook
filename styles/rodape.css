@@ -10,6 +10,12 @@ hr{
 .lista-rodape{
     display: none;
 }
+.assinatura{
+    padding: 2em 0 0;
+    font-size: 10px;
+    color: var(--cinza);
+    text-align: left;
+}
 
 @media screen and (min-width: 1024px){
 
@@ -44,6 +50,13 @@ hr{
         font-size: 30px;
 
     }
+    .assinatura{
+        display: flex;
+        padding:20em 0 0.5em;
+        font-size: 15px;
+        color: var(--cinza);
+        text-align: left;
+    }
     
 }
 
@@ -51,13 +64,14 @@ hr{
 
 .lista-rodape{
     border-left: 1px solid var(--cinza-claro);
-    padding-left: 1rem;
+    padding-left: 1em;
 }
 .rodapé{
     padding: 3em 0;
 }
-
-
-
+.assinatura{
+    font-size: 20px;
+    color: var(--cinza);
+}
 
 }
